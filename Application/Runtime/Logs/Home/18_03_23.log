@@ -1,0 +1,9 @@
+[ 2018-03-23T08:35:26+08:00 ] ::1 /thinkphpH/index.php/Home/Hotel/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 4 for Home\Controller\PublicController::curlPostjson(), called in D:\phpStudy\WWW\thinkphpH\Application\Home\Controller\HotelController.class.php on line 20 and defined D:\phpStudy\WWW\thinkphpH\Application\Home\Controller\PublicController.class.php 第 19 行.
+

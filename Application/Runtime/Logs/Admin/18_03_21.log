@@ -1,0 +1,1526 @@
+[ 2018-03-21T09:24:49+08:00 ] ::1 /thinkphpH/admin.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T09:24:49+08:00 ] ::1 /thinkphpH/admin.php/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T09:24:58+08:00 ] ::1 /thinkphpH/admin.php/Login/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xg_admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `xg_admin` WHERE `username` = 'admin' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `xg_admin` SET `lasttime`='1521595497',`lastip`='0' WHERE `username` = 'admin' [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xg_action` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `xg_action` WHERE `name` = 'user_login' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xg_admin` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `xg_admin` WHERE `adminid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_action_log` [ RunTime:0.0070s ]
+SQL: INSERT INTO `xg_action_log` (`user_id`,`action_ip`,`model`,`create_time`,`remark`) VALUES ('1','0','Admin','1521595497','admin在2018-03-21 09:24登录了后台') [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-21T09:25:00+08:00 ] ::1 /thinkphpH/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-21T09:25:01+08:00 ] ::1 /thinkphpH/admin.php/index/summarize.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: select version() as ver [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\a91718f612b01347f17fdaf34b340690.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\a91718f612b01347f17fdaf34b340690.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\a91718f612b01347f17fdaf34b340690.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\a91718f612b01347f17fdaf34b340690.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\a91718f612b01347f17fdaf34b340690.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\a91718f612b01347f17fdaf34b340690.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\a91718f612b01347f17fdaf34b340690.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-21T09:25:02+08:00 ] ::1 /thinkphpH/admin.php/Index/skin-config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:skin-config
+
+[ 2018-03-21T09:25:32+08:00 ] ::1 /thinkphpH/admin.php/Index/summarize.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: select version() as ver [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\a91718f612b01347f17fdaf34b340690.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\a91718f612b01347f17fdaf34b340690.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\a91718f612b01347f17fdaf34b340690.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\a91718f612b01347f17fdaf34b340690.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\a91718f612b01347f17fdaf34b340690.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\a91718f612b01347f17fdaf34b340690.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\a91718f612b01347f17fdaf34b340690.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T09:25:59+08:00 ] ::1 /thinkphpH/admin.php/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `xg_category` ORDER BY sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T09:26:42+08:00 ] ::1 /thinkphpH/admin.php/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_article` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xg_article` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xg_article` WHERE `status` = 1 ORDER BY sort desc,id desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: field D:\phpStudy\WWW\thinkphpH\Application\Admin\Controller\ArticleController.class.php 第 26 行.
+NOTIC: [8] Undefined index: field D:\phpStudy\WWW\thinkphpH\Application\Admin\Controller\ArticleController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `xg_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_category` ORDER BY sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 24 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 78 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T09:26:44+08:00 ] ::1 /thinkphpH/admin.php/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `xg_category` ORDER BY sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-03-21T09:26:46+08:00 ] ::1 /thinkphpH/admin.php/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xg_article` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xg_article` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xg_article` WHERE `status` = 1 ORDER BY sort desc,id desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: field D:\phpStudy\WWW\thinkphpH\Application\Admin\Controller\ArticleController.class.php 第 26 行.
+NOTIC: [8] Undefined index: field D:\phpStudy\WWW\thinkphpH\Application\Admin\Controller\ArticleController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `xg_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xg_category` ORDER BY sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 24 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 78 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-21T09:26:48+08:00 ] ::1 /thinkphpH/admin.php/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_category` ORDER BY sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T09:26:59+08:00 ] ::1 /thinkphpH/admin.php/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_category` ORDER BY sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-03-21T09:27:01+08:00 ] ::1 /thinkphpH/admin.php/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_article` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xg_article` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xg_article` WHERE `status` = 1 ORDER BY sort desc,id desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: field D:\phpStudy\WWW\thinkphpH\Application\Admin\Controller\ArticleController.class.php 第 26 行.
+NOTIC: [8] Undefined index: field D:\phpStudy\WWW\thinkphpH\Application\Admin\Controller\ArticleController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `xg_category` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `xg_category` ORDER BY sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 24 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 78 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T09:27:04+08:00 ] ::1 /thinkphpH/admin.php/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xg_category` ORDER BY sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-03-21T09:27:12+08:00 ] ::1 /thinkphpH/admin.php/Category/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xg_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_category` ORDER BY sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: detail D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\95612c4b24bfa83d0c6f94203c668e18.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T09:27:25+08:00 ] ::1 /thinkphpH/admin.php/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xg_category` ORDER BY sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9bfef0f9f473c596f668b6c9a32bfd5c.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T09:27:51+08:00 ] ::1 /thinkphpH/admin.php/Site/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant site_logo - assumed 'site_logo' D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\857b1a6610f546bd792cb0f882368043.php 第 63 行.
+NOTIC: [8] Undefined variable: detail D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\857b1a6610f546bd792cb0f882368043.php 第 94 行.
+NOTIC: [8] Undefined variable: detail D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\857b1a6610f546bd792cb0f882368043.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-21T09:27:55+08:00 ] ::1 /thinkphpH/admin.php/Flink/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xg_flink` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xg_flink` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xg_flink` ORDER BY sort desc,linkid desc LIMIT 0,12   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9aea96e2368e8e52c8f477e6db98d587.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9aea96e2368e8e52c8f477e6db98d587.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9aea96e2368e8e52c8f477e6db98d587.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9aea96e2368e8e52c8f477e6db98d587.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9aea96e2368e8e52c8f477e6db98d587.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9aea96e2368e8e52c8f477e6db98d587.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\9aea96e2368e8e52c8f477e6db98d587.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T09:27:58+08:00 ] ::1 /thinkphpH/admin.php/Site/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant site_logo - assumed 'site_logo' D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\857b1a6610f546bd792cb0f882368043.php 第 63 行.
+NOTIC: [8] Undefined variable: detail D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\857b1a6610f546bd792cb0f882368043.php 第 94 行.
+NOTIC: [8] Undefined variable: detail D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\857b1a6610f546bd792cb0f882368043.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-03-21T09:28:00+08:00 ] ::1 /thinkphpH/admin.php/Banner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_banner` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xg_banner` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xg_banner` ORDER BY sort desc,id desc LIMIT 0,12   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T09:28:01+08:00 ] ::1 /thinkphpH/admin.php/Site/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant site_logo - assumed 'site_logo' D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\857b1a6610f546bd792cb0f882368043.php 第 63 行.
+NOTIC: [8] Undefined variable: detail D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\857b1a6610f546bd792cb0f882368043.php 第 94 行.
+NOTIC: [8] Undefined variable: detail D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\857b1a6610f546bd792cb0f882368043.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T09:28:03+08:00 ] ::1 /thinkphpH/admin.php/Banner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xg_banner` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xg_banner` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xg_banner` ORDER BY sort desc,id desc LIMIT 0,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T09:28:15+08:00 ] ::1 /thinkphpH/admin.php/Banner/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-21T09:28:23+08:00 ] ::1 /thinkphpH/admin.php/Banner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xg_banner` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xg_banner` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xg_banner` ORDER BY sort desc,id desc LIMIT 0,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-21T09:28:36+08:00 ] ::1 /thinkphpH/admin.php/Banner/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T09:28:45+08:00 ] ::1 /thinkphpH/admin.php/Public/uploadAttach/session_id/ip93vtoub5t9qkqk11g36jgi13/type/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `file_size` FROM `xg_site` WHERE ( siteid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\thinkphpH\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-03-21T10:03:49+08:00 ] ::1 /thinkphpH/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T10:04:03+08:00 ] ::1 /thinkphpH/index.php/Admin/Login/verify.html?0.05020932151454938
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-21T10:05:10+08:00 ] ::1 /thinkphpH/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T10:13:40+08:00 ] ::1 /thinkphpH/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-03-21T10:13:50+08:00 ] ::1 /thinkphpH/index.php/Admin/Login/verify.html?0.7036031987873307
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T10:14:32+08:00 ] ::1 /thinkphpH/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T10:28:41+08:00 ] ::1 /thinkphpH/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-21T10:29:02+08:00 ] ::1 /thinkphpH/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T10:34:31+08:00 ] ::1 /thinkphpH/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T10:34:53+08:00 ] ::1 /thinkphpH/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T10:34:59+08:00 ] ::1 /thinkphpH/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T10:35:02+08:00 ] ::1 /thinkphpH/index.php/Admin/Login/verify.html?0.13572500221210038
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T11:46:25+08:00 ] ::1 /thinkphpH/admin.php/Banner/insert.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T11:46:25+08:00 ] ::1 /thinkphpH/admin.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T11:46:25+08:00 ] ::1 /thinkphpH/admin.php/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T11:46:28+08:00 ] ::1 /thinkphpH/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-21T11:46:28+08:00 ] ::1 /thinkphpH/admin.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-21T11:46:28+08:00 ] ::1 /thinkphpH/admin.php/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T11:46:34+08:00 ] ::1 /thinkphpH/admin.php/Login/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xg_admin` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xg_admin` WHERE `username` = 'admin' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `xg_admin` SET `lasttime`='1521603993',`lastip`='0' WHERE `username` = 'admin' [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `xg_action` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_action` WHERE `name` = 'user_login' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_admin` [ RunTime:0.0050s ]
+SQL: SELECT `username` FROM `xg_admin` WHERE `adminid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xg_action_log` [ RunTime:0.0050s ]
+SQL: INSERT INTO `xg_action_log` (`user_id`,`action_ip`,`model`,`create_time`,`remark`) VALUES ('1','0','Admin','1521603993','admin在2018-03-21 11:46登录了后台') [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T11:46:37+08:00 ] ::1 /thinkphpH/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T11:46:38+08:00 ] ::1 /thinkphpH/admin.php/index/summarize.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: select version() as ver [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\a91718f612b01347f17fdaf34b340690.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\a91718f612b01347f17fdaf34b340690.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\a91718f612b01347f17fdaf34b340690.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\a91718f612b01347f17fdaf34b340690.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\a91718f612b01347f17fdaf34b340690.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\a91718f612b01347f17fdaf34b340690.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\a91718f612b01347f17fdaf34b340690.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T11:46:39+08:00 ] ::1 /thinkphpH/admin.php/Index/skin-config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+ERR: 非法操作:skin-config
+
+[ 2018-03-21T11:46:42+08:00 ] ::1 /thinkphpH/admin.php/Banner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xg_banner` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xg_banner` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xg_banner` ORDER BY sort desc,id desc LIMIT 0,12   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T11:46:51+08:00 ] ::1 /thinkphpH/admin.php/Banner/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T11:47:02+08:00 ] ::1 /thinkphpH/admin.php/Public/uploadAttach/session_id/ip93vtoub5t9qkqk11g36jgi13/type/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `file_size` FROM `xg_site` WHERE ( siteid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\thinkphpH\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-03-21T11:47:08+08:00 ] ::1 /thinkphpH/admin.php/Banner/insert.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_banner` [ RunTime:0.0040s ]
+SQL: INSERT INTO `xg_banner` (`cid`,`name`,`thumb`,`url`,`ishidden`,`inputtime`) VALUES ('0','pc幻灯片','/thinkphpH/Uploads/Images/2018-03-21/5ab1d5b6ef100.jpg','http://redh5.cn','0','1521604027') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-21T11:47:10+08:00 ] ::1 /thinkphpH/admin.php/Banner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xg_banner` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xg_banner` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xg_banner` ORDER BY sort desc,id desc LIMIT 0,12   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-21T11:47:11+08:00 ] ::1 /thinkphpH/admin.php/Banner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_banner` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xg_banner` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xg_banner` ORDER BY sort desc,id desc LIMIT 0,12   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-21T11:47:27+08:00 ] ::1 /thinkphpH/admin.php/Banner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_banner` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xg_banner` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xg_banner` ORDER BY sort desc,id desc LIMIT 0,12   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T11:47:29+08:00 ] ::1 /thinkphpH/admin.php/Banner/edit/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_banner` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_banner` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-21T11:47:42+08:00 ] ::1 /thinkphpH/admin.php/Banner/listorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xg_banner` [ RunTime:0.0050s ]
+SQL: UPDATE `xg_banner` SET `sort`='1' WHERE `id` = 2 [ RunTime:0.0030s ]
+SQL: UPDATE `xg_banner` SET `sort`='0' WHERE `id` = 1 [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-21T11:47:44+08:00 ] ::1 /thinkphpH/admin.php/Banner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xg_banner` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xg_banner` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xg_banner` ORDER BY sort desc,id desc LIMIT 0,12   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-21T11:47:54+08:00 ] ::1 /thinkphpH/admin.php/Banner/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-21T11:48:03+08:00 ] ::1 /thinkphpH/admin.php/Public/uploadAttach/session_id/ip93vtoub5t9qkqk11g36jgi13/type/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `file_size` FROM `xg_site` WHERE ( siteid = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\thinkphpH\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-03-21T11:48:18+08:00 ] ::1 /thinkphpH/admin.php/Banner/insert.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xg_banner` [ RunTime:0.0040s ]
+SQL: INSERT INTO `xg_banner` (`cid`,`name`,`thumb`,`url`,`ishidden`,`inputtime`) VALUES ('1','wap幻灯片','/thinkphpH/Uploads/Images/2018-03-21/5ab1d5f389030.jpg','http://redh5.cn','0','1521604097') [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-03-21T11:48:21+08:00 ] ::1 /thinkphpH/admin.php/Banner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_banner` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xg_banner` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xg_banner` ORDER BY sort desc,id desc LIMIT 0,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T11:48:22+08:00 ] ::1 /thinkphpH/admin.php/Banner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xg_site` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_site` WHERE `siteid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `xg_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xg_auth` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xg_banner` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xg_banner` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xg_banner` ORDER BY sort desc,id desc LIMIT 0,12   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 16 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 21 行.
+NOTIC: [8] Undefined variable: sel D:\phpStudy\WWW\thinkphpH\Application\Runtime\Cache\Admin\96f1079dc513765702ec3bb82f6b6e84.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T14:15:23+08:00 ] ::1 /thinkphpH/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
